@@ -1,6 +1,6 @@
 ## Python Mastery Guide
 
-* Topics
+* Roadmap
     * [x] Variables and Data types
     * [x] Operators
     * [x] Conditional Statements
