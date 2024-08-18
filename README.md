@@ -3,17 +3,17 @@
 * Roadmap
     * [x] Variables and Data types
     * [x] Operators
-    * [x] Conditional Statements
-    * [x] Loops
+    * [ ] Conditional Statements
+    * [ ] Loops
     * [x] Lists
-    * [x] Strings
+    * [ ] Strings
     * [x] Functions
     * [ ] Builtin functions
     * [x] Dictionaries
     * [x] Tuples
-    * [x] Sets
+    * [ ] Sets
     * [ ] Object-Oriented Programming
-      * [ ] Classes and objects
+      * [x] Classes and objects
       * [ ] Magic Methods
       * [ ] Inheritance
       * [ ] Encapsulation
