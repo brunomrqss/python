@@ -8,6 +8,7 @@
     * [x] Lists
     * [ ] Strings
     * [x] Functions
+    * [ ] Generators and Iterators
     * [ ] Builtin functions
     * [x] Dictionaries
     * [x] Tuples
@@ -21,4 +22,5 @@
     * [ ] File Handling
     * [ ] Try/Exception Handling
     * [ ] Modules and packages
-    * [ ] Data Structure and Algorithms
+    * [ ] Testing
+
