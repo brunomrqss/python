@@ -1,7 +1,6 @@
 ## Anotações python
 
-Este repositório tem como objetivo guardar minhas documentações referentes aos meus estudos na linguagem python, com intenção também de ajudar aqueles que estão iniciando na linguagem 
-e gostariam de uma documentação de fácil leitura e fácil acesso.
+Este repositório tem como objetivo guardar minhas documentações referentes aos meus estudos na linguagem python.
 
 * Roadmap
     * [x] Variables and Data types
