@@ -1,0 +1,2 @@
+print(round(42.5)) # quando o numero é par ele arredonda para baixo pois o resto da divisao resulta em 0.25
+print(round(43.5)) # quando o numnero é impar ele arredonda para cima pois o resto da divisao resulta em 0.75
