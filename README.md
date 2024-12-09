@@ -5,18 +5,18 @@ Este repositório tem como objetivo guardar minhas documentações referentes ao
 * Roadmap
     * [x] Variables and Data types
     * [x] Operators
-    * [ ] Conditional Statements
-    * [ ] Loops
+    * [x] Conditional Statements
+    * [x] Loops
     * [x] Lists
-    * [ ] Strings
+    * [x] Strings
     * [x] Functions
     * [ ] Generators and Iterators
-    * [ ] Builtin functions
-    * [x] Dictionaries
+    * [x] Builtin functions
+    * [ ] Dictionaries
     * [x] Tuples
-    * [ ] Sets
+    * [x] Sets
     * [ ] Object-Oriented Programming
-      * [x] Classes and objects
+      * [ ] Classes and objects
       * [ ] Magic Methods
       * [ ] Inheritance
       * [ ] Encapsulation
