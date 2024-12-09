@@ -1,0 +1,9 @@
+*** TITULO ***
+Olá, meu nome é Bruno e estou testando se está funcionando o arquivo .txt criado para ser aberto no python.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Testando novamente, qualquer texto
+posso continuar colocando textos aqui
+*** FINAL *** 
+posso colocar tambem mais texto do lado de cá entendeu?
