@@ -1,19 +1,13 @@
-lista = []
+lista=[]
 
 for i in range(10):
-    letra=input('informe a letra: ')
+    letra=input('letra: ')
     lista.append(letra)
 
-sem_rep = lista[:]
+freq=[]
 
-for j in sem_rep:
-    if sem_rep.count(j)>1:
-        sem_rep.remove(j)
-
-for y in sem_rep:
-    if sem_rep.count(y)>1:
-        sem_rep.remove(y)
-
-for x in sem_rep:
-    print(f'a letra {x} aparece {lista.count(x)} vezes')
-
+for j in lista:
+    if j not in freq:
+        freq.append(j)
+        qtd=lista.count(j)
+        print(f"letra: {j} - quantidade: {qtd}")
