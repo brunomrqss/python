@@ -1,17 +1,21 @@
-numeros=[]
+lista = [] #Instancia lista
 
 for i in range(10):
-    numero=int(input(f'informe o {i+1} numero: '))
-    numeros.append(numero)
+    num = int(input(f"Digite o {i+1}° número: ")) #Recebe o número
+    lista.append(num) #Insere em lista
 
-for j in range(len(numeros)):
-    numeros.append(numeros[j]*2)
+nova_lista = lista.copy() #Instancia a nova lista de 20 números, cujos 10 primeiros são os número recebidos na entrada
 
-count_remove=0
-for j in numeros:
-    if j%2==0:
-        numeros.remove(j)
-        count_remove+=1
-    
-print(f'A quantidade numeros pares excluídos foi de: {count_remove}')
-print(f'Nova lista apenas com numeros impares: {numeros}')
+for j in range(10):
+    nova_lista.append(lista[j]*2) #Adiciona o dobro de cada um dos 10 primeiros números ao final da nova lista
+
+count = 0 #Instancia o contador dos números pares removidos
+
+for num in nova_lista:
+    if num % 2 == 0: #Se o número for par
+        nova_lista.remove(num) #Remove o número
+        count = count + 1 #Incrementa 1 no contador
+
+print(f"Foram removidos {count} número(s) pares da lista")
+print(f"A lista alterada é: {nova_lista}")
+
