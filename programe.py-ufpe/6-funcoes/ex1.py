@@ -1,25 +1,27 @@
-def cadastro_funcionario():
-    count=0
+def cadastro(nome, cpf, salario, dp):
+    funcionario = {
+        'cpf':cpf,
+        'nome':nome,
+        'salario': salario,
+        'departamento': dp
+    }
 
-    funcionario={}
-    funcionarios=[]
+    funcionarios.append(funcionario)
+    print('Funcionário cadastrado com sucesso!')
 
-    while count!=1:
-        nome=input('informe o nome: ')
-        salario=int(input('informe o salario: '))
+funcionarios=[]
+
+while True:
+    resposta=input('Deseja cadastrar um funcionario s-sim/n-nao? ')
+
+    if resposta=='s'.lower():
         cpf=input('informe o cpf: ')
-        dp=input('informe o dp: ')
+        nome=input('informe o nome do funcionario: ')
+        salario=int(input('informe o salario do funcionario: '))
+        departamento=input('informe o departamento: ')
 
-        funcionario['nome']=nome
-        funcionario['salario']=salario
-        funcionario['cpf']=cpf
-        funcionario['dp']=dp
+        cadastro(nome, cpf, salario, departamento)
+        print(f'Funcionarios cadastrados: \n{funcionarios}')
+    else:
+        break
 
-        funcionarios.append(funcionario)
-
-        count=int(input('deseja encerrar o cadastro 1-sim/0-nao: '))
-
-        if count==1:
-            break
-    
-cadastro_funcionario()
